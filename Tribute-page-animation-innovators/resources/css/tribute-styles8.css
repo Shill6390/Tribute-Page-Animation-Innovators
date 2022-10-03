@@ -1,0 +1,129 @@
+body {
+    font-family: "Playfair Display", serif;
+    font-size: 22px;
+    color: black;
+    background-color: white;
+    opacity: 1;
+    margin: 0;
+    text-align: center;
+  }
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .nav-list {
+    position: fixed;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 1.25rem;
+    color: black;
+    background-color: rgb(29, 234, 227);
+    border-bottom: 1px solid seashell;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 100;
+    text-decoration: none;
+  }
+  
+  .nav-item {
+    color: black;
+    list-style: none;
+    margin-right: 2rem;
+  }
+  
+  .nav-item a {
+    
+    text-decoration: underline;
+  }
+  
+  
+  .header { 
+    width: 100%;
+    height: 100px;
+    display: block;
+    position: fixed;
+    top: 0px;
+    opacity: .8;
+  }
+
+  h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 36pt;
+    text-align: center;
+    margin-top: -40px; 
+}
+
+h2,
+h3, 
+h5 {
+  font-family: "Barlow Condensed", sans-serif;
+  text-align: center;
+  background-color: #c9abf7;  
+}
+
+h4 {
+    font-family: "Barlow Condensed", sans-serif;
+    padding-top: 40px;
+    text-align: center; 
+    letter-spacing: 0.5rem;
+}
+
+p {
+    font-family: "Playfair Display", serif;
+    font-size: 1.25rem;
+    line-height: 2.25rem;
+    background-color: seashell;
+    padding: 10px;
+}
+
+
+  figure #walt-disney {
+    display: inline-flex;
+  }
+
+
+ img {
+    width: 180px;
+      height: auto;
+      border: 1.5px solid #336699;
+      border-top-left-radius: 25px;
+      border-top-right-radius: 25px;
+      border-bottom-right-radius: 50%;
+      border-bottom-left-radius: 50%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+  } */
+  
+figcaption {
+    font-family: "Barlow Condensed", sans-serif;
+    padding-top: 20px;
+    text-align: center; 
+    letter-spacing: 0.5rem;
+}
+
+.name {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(100, 146, 165);
+}
+
+  footer {
+    display: block;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    /* padding-left: 20px; */
+    font-size: .5rem;
+    /* color: rgb(247, 93, 66); */
+    background-color: blue;
+    font-family: "Barlow Condensed", sans-serif;
+    margin-top: 20px;
+    text-align: left; 
+    letter-spacing: 0.5rem;
+  }
